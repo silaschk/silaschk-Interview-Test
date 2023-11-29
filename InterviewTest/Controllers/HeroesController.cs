@@ -47,6 +47,7 @@ namespace InterviewTest.Controllers
             if (action == "evolve")
             {
                 hero.evolve();
+
                 return hero;
             }
 

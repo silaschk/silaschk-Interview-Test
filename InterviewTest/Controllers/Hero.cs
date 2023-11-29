@@ -16,6 +16,7 @@ namespace InterviewTest.Controllers
             for (int i = 0; i < stats.Count; i++)
             {
                 var stat = stats[i];
+
                 stats[i] = new KeyValuePair<string, int>(stat.Key, stat.Value + (stat.Value / 2));
             }
         }
